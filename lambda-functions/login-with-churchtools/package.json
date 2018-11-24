@@ -1,0 +1,26 @@
+{
+    "name": "aws-login-with-churchtools",
+    "version": "1.0.0",
+    "description": "Lambda Function for AWS to login with churchtool and get a token back",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [
+        "aws",
+        "churchtools",
+        "lambda"
+    ],
+    "author": "Christian Guedemann",
+    "license": "Apache-2.0",
+    "devDependencies": {
+        "aws-sdk": "^2.176.0",
+        "del": "^3.0.0",
+        "gulp": "^4.0.0",
+        "gulp-install": "^1.1.0",
+        "gulp-zip": "^4.0.0"
+    },
+    "dependencies": {
+        "uuid": "^3.1.0"
+    }
+}
