@@ -21,6 +21,8 @@
         "gulp-zip": "^4.0.0"
     },
     "dependencies": {
+        "@webgate/awsutils": "^0.1.1",
+        "request": "^2.88.0",
         "uuid": "^3.1.0"
     }
 }
