@@ -1,2 +1,8 @@
 
 lambda-functions/login-with-churchtools/node_modules/
+
+lambda-functions/login-with-churchtools/\.vscode/
+
+lambda-functions/login-with-churchtools/build/
+
+lambda-functions/login-with-churchtools/dist/
