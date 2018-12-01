@@ -1,11 +1,12 @@
 const request = require('request');
+const jwt = require('jsonwebtoken');
 exports.getLoginToken = function(endpoint, email, password) {
     return new Promise(function(resolve, reject) {
         let payload = {
             'func': 'getUserLoginToken',
             'email': email,
             'password': password
-        }
+        };
         let caller = endpoint + 'index.php?q=login/ajax';
         request.post(caller, {
             form: payload
@@ -21,4 +22,13 @@ exports.getLoginToken = function(endpoint, email, password) {
             }
         });
     });
-}
+};
+exports.buildJWT = function(email, secret) {
+    return jwt.sign({
+        'email': email
+    }, secret, {
+        expiresIn: '60m',
+        subject: email,
+        issuer: 'ch.feg-effretikon'
+    });
+};
