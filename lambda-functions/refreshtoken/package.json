@@ -1,0 +1,29 @@
+{
+    "name": "aws-refreshtoken-function",
+    "version": "1.0.0",
+    "description": "Lambda Function for AWS to refresh a token",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [
+        "aws",
+        "churchtools",
+        "lambda"
+    ],
+    "author": "Christian Guedemann",
+    "license": "Apache-2.0",
+    "devDependencies": {
+        "aws-sdk": "^2.176.0",
+        "del": "^3.0.0",
+        "gulp": "^4.0.0",
+        "gulp-install": "^1.1.0",
+        "gulp-zip": "^4.0.0"
+    },
+    "dependencies": {
+        "@webgate/awsutils": "^0.1.1",
+        "jsonwebtoken": "^8.4.0",
+        "request": "^2.88.0",
+        "uuid": "^3.1.0"
+    }
+}

@@ -6,3 +6,11 @@ lambda-functions/login-with-churchtools/\.vscode/
 lambda-functions/login-with-churchtools/build/
 
 lambda-functions/login-with-churchtools/dist/
+
+lambda-functions/refreshtoken/\.vscode/
+
+lambda-functions/refreshtoken/node_modules/
+
+lambda-functions/refreshtoken/build/
+
+lambda-functions/refreshtoken/dist/
